@@ -34,8 +34,8 @@ export const FAQ = () => {
       a: "Sim. O desenho da leitura foi projetado para imersão perfeita, proporcionando uma experiência de clareza tanto em celulares quanto em tablets ou computadores."
     },
     {
-      q: "Por que custa apenas R$ 19,90?",
-      a: "Minha missão é plantar sementes de liberdade no maior número possível de lares. R$ 19,90 é um valor acessível, construído intencionalmente para separar quem valoriza o aprendizado profundo dos meros curiosos."
+      q: "Por que custa apenas R$ 17,90?",
+      a: "Minha missão é plantar sementes de liberdade no maior número possível de lares. R$ 17,90 é um valor acessível, construído intencionalmente para separar quem valoriza o aprendizado profundo dos meros curiosos."
     },
     {
       q: "Existe garantia?",

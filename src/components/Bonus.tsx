@@ -155,9 +155,9 @@ export const Bonus = () => {
                     <p className="text-sm font-bold text-emerald-400 uppercase tracking-widest mb-1">Oferta de Hoje:</p>
                     <div className="flex flex-row items-baseline justify-center gap-2 mb-2 whitespace-nowrap">
                       <span className="text-xl md:text-2xl font-bold text-white">APENAS</span>
-                      <span className="text-4xl md:text-5xl font-black text-brand-gold leading-none">R$ 19,90</span>
+                      <span className="text-4xl md:text-5xl font-black text-brand-gold leading-none">R$ 17,90</span>
                     </div>
-                    <p className="text-slate-300 text-sm font-medium">(Ou 12x de R$ 1,99)</p>
+                    <p className="text-slate-300 text-sm font-medium">(Ou 12x de R$ 1,79)</p>
                   </div>
 
                   <CTAButton href="https://cupondesconto.com.br/d0ib" className="w-full text-sm md:text-lg animate-bounce">

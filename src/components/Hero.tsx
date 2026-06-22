@@ -26,7 +26,7 @@ export const Hero = () => {
           </p>
           <div className="flex flex-col items-center lg:items-start w-full gap-4">
             <CTAButton href="#oferta" className="animate-pulse">
-              QUERO ACESSAR A SABEDORIA DA ABUNDÂNCIA AGORA (Por R$ 19,90)
+              QUERO ACESSAR A SABEDORIA DA ABUNDÂNCIA AGORA (Por R$ 17,90)
             </CTAButton>
             <div className="flex items-center gap-4 text-sm text-slate-400 font-medium">
               <span className="flex items-center gap-1"><ShieldCheck className="w-4 h-4 text-brand-gold" /> Compra 100% Segura</span>
