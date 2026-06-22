@@ -6,13 +6,13 @@ export const Authority = () => {
     <section className="py-16 md:py-24 px-4 bg-brand-dark">
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
         <motion.div 
-          className="lg:w-5/12 relative"
+          className="w-full lg:w-5/12 relative flex justify-center"
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <div className="relative z-10 w-full max-w-sm mx-auto lg:max-w-none aspect-[4/5] rounded-tl-[80px] rounded-br-[80px] overflow-hidden border-4 border-white/5 shadow-2xl">
+          <div className="relative z-10 w-full max-w-sm lg:max-w-none aspect-[4/5] rounded-tl-[80px] rounded-br-[80px] overflow-hidden border-4 border-white/5 shadow-2xl">
             <img 
               src="https://private-purple-7jwtyjj1.edgeone.app/DR%20LENDO%20OLHANDO%20PARA%20CAMERA.jpeg" 
               alt="Helena Valença" 
@@ -34,29 +34,29 @@ export const Authority = () => {
         </motion.div>
 
         <motion.div 
-          className="lg:w-7/12"
+          className="w-full lg:w-7/12 flex flex-col items-center lg:items-start text-center lg:text-left"
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-8 leading-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-8 leading-tight w-full">
             "Eu não vim de uma linhagem de riqueza. Mas um legado de prosperidade <span className="text-brand-gold">começará por mim.</span>"
           </h2>
           
-          <div className="space-y-6 text-lg text-slate-300 leading-relaxed mb-10">
+          <div className="space-y-6 text-base md:text-lg text-slate-300 leading-relaxed mb-10 w-full">
             <p>
               Sou a pesquisadora Helena Valença. Durante anos estudei o comportamento humano, a psicologia do sucesso e os princípios atemporais que fundamentaram as maiores trajetórias de liderança e riqueza da história.
             </p>
             <p>
               Pessoas que crescem na falta desenvolvem, muitas vezes, uma <strong className="text-white">repulsa silenciosa pela abundância</strong>. Sem restaurar os alicerces da sua mentalidade, você continuará dissipando os recursos que passarem por suas mãos para anestesiar dores do passado.
             </p>
-            <p className="pl-4 border-l-2 border-brand-gold italic">
+            <p className="pl-4 border-l-2 border-brand-gold italic text-left">
               "Você precisa mais do que dicas financeiras. Você precisa resgatar os princípios que regem a mente próspera. É para essa jornada que desenhei este manual."
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-8 border-t border-white/5">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-white/5 w-full">
             {[
               { icon: <GraduationCap className="w-6 h-6 text-brand-gold" />, text: "Comportamento Humano" },
               { icon: <Award className="w-6 h-6 text-brand-gold" />, text: "Princípios Validados" },
