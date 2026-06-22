@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="https://private-purple-7jwtyjj1.edgeone.app/LOGO.png" />
+    <title>A Sabedoria da Abundância</title>
+    <script>
+      let originalFetch = window.fetch;
+      try {
+        Object.defineProperty(window, 'fetch', {
+          enumerable: true,
+          configurable: true,
+          get: () => originalFetch,
+          set: (v) => { originalFetch = v; }
+        });
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
