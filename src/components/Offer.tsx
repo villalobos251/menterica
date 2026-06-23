@@ -18,10 +18,12 @@ export const Offer = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-5xl font-black text-white mb-6 uppercase leading-tight">
-            Seja a <span className="text-brand-gold">semente de um novo legado</span> na sua família.
+            A DECISÃO É <span className="text-brand-gold">SIMPLES</span>
           </h2>
           <p className="text-lg md:text-xl text-slate-300">
-            O preço de continuar colhendo os mesmos frutos é permanecer no ciclo de cansaço e limitação. O valor para acessar a sabedoria que reconfigurará suas fundações mentais é quase simbólico.
+            Você pode continuar exatamente como está.<br/>
+            Ou pode começar a mudar a forma como toma decisões a partir de hoje.<br/>
+            Não existe transformação sem uma primeira decisão.
           </p>
         </motion.div>
 
@@ -56,13 +58,14 @@ export const Offer = () => {
                   <div className="absolute inset-0 bg-brand-dark/20 group-hover:bg-transparent transition-colors duration-500 pointer-events-none"></div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-6 mt-4">Guia <span className="text-brand-gold">A Sabedoria da Abundância</span></h3>
+                  <h3 className="text-2xl font-bold text-white mb-2 mt-4">Guia <span className="text-brand-gold">A Sabedoria da Abundância</span></h3>
+                  <p className="text-slate-400 mb-6 text-sm">Baseado no Método Próspera</p>
                   <ul className="space-y-4 mb-8">
                   {[
-                    "O Guia Completo dos Princípios Atemporais",
-                    "Mapa de Transformação Pessoal detalhado",
-                    "Acesso imediato à biblioteca de sabedoria",
-                    "Bônus: Ferramentas complementares para Legado"
+                    "Princípios de decisão e mentalidade",
+                    "Exercícios de reflexão prática",
+                    "Direção para reconstrução de hábitos",
+                    "Aplicação dos 4 pilares do Método Próspera"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <CheckCircle2 className="w-6 h-6 text-brand-gold shrink-0 mt-0.5" />
@@ -85,7 +88,7 @@ export const Offer = () => {
                 <p className="text-slate-300 mb-8 text-sm font-medium">(Ou 12x de R$ 1,79)</p>
                 
                 <CTAButton href="https://cupondesconto.com.br/d0ib" className="w-full text-sm md:text-lg">
-                  SIM! QUERO CONSTRUIR UM NOVO LEGADO
+                  QUERO ASSUMIR O COMANDO DO MEU FUTURO AGORA
                 </CTAButton>
               </div>
             </div>
@@ -96,11 +99,18 @@ export const Offer = () => {
                 <ShieldCheck className="w-8 h-8 text-brand-gold" />
               </div>
               <div className="text-center md:text-left">
-                <h4 className="text-lg font-bold text-white mb-2 uppercase">Garantia Blindada de 7 Dias</h4>
+                <h4 className="text-lg font-bold text-white mb-2 uppercase">Garantia</h4>
                 <p className="text-slate-400 text-sm leading-relaxed">
-                  Se a sabedoria não transformar completamente a forma como você enxerga as decisões da sua vida, devolvemos 100% do seu investimento. Sem letras miúdas.
+                  Você pode acessar o conteúdo com segurança. Se não fizer sentido para você, existe uma garantia de 7 dias. Sem complicação.
                 </p>
               </div>
+            </div>
+            
+            <div className="mt-12 text-center max-w-2xl mx-auto">
+                <h4 className="text-xl font-bold text-white mb-4 uppercase">Para Fim de Conversa</h4>
+                <p className="text-slate-400 text-sm md:text-base leading-relaxed italic">
+                  "Talvez o problema nunca tenha sido falta de esforço. Talvez você só nunca tenha tido um sistema claro para guiar suas decisões. E se isso for verdade… Então ainda existe caminho."
+                </p>
             </div>
           </div>
         </motion.div>

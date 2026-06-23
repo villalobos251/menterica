@@ -7,6 +7,7 @@ import { Hero } from './components/Hero';
 import { Identification } from './components/Identification';
 import { Authority } from './components/Authority';
 import { Solution } from './components/Solution';
+import { Testimonials } from './components/Testimonials';
 import { Bonus } from './components/Bonus';
 import { Offer } from './components/Offer';
 import { FAQ } from './components/FAQ';
@@ -22,6 +23,7 @@ export default function App() {
         <Identification />
         <Authority />
         <Solution />
+        <Testimonials />
         <Bonus />
         <Offer />
         <FAQ />

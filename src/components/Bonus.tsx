@@ -7,39 +7,39 @@ export const Bonus = () => {
     {
       icon: <Tablet className="w-16 h-16 text-slate-300 stroke-1" />,
       image: "https://private-purple-7jwtyjj1.edgeone.app/BONUS%201.jpeg",
-      title: "BÔNUS 1: A Aliança Inabalável: Construindo Riqueza a Dois",
-      desc: "A prosperidade começa no lar. Aprenda os princípios milenares de comunicação colaborativa para desarmar conflitos e transformar sua casa em um ambiente de construção mútua de legado.",
+      title: "BÔNUS 1 — Construção de Riqueza a Dois",
+      desc: "Como o ambiente familiar influencia diretamente suas decisões e resultados.",
       oldPrice: "97,00"
     },
     {
       icon: <Smartphone className="w-16 h-16 text-slate-300 stroke-1" />,
       image: "https://private-purple-7jwtyjj1.edgeone.app/BONUS%202.jpeg",
-      title: "BÔNUS 2: O Alvorecer dos Sábios: O Código da Primeira Hora",
-      desc: "A disciplina dos grandes líderes é forjada antes que o sol nasça. Uma rotina matinal que combina intencionalidade e foco para armar sua mente contra decisões baseadas na emoção momentânea.",
+      title: "BÔNUS 2 — Código da Primeira Hora",
+      desc: "Como estruturar suas manhãs para aumentar clareza e disciplina.",
       oldPrice: "67,00"
     },
     {
       icon: <Headphones className="w-16 h-16 text-slate-300 stroke-1" />,
       image: "https://private-purple-7jwtyjj1.edgeone.app/BONUS%203.jpeg",
-      title: "BÔNUS 3: Frequência da Serenidade: Imersão para Clareza Interior",
-      desc: "Um guia sonoro projetado para acalmar as tempestades da mente ansiosa. Encontre o estado de paz e lucidez necessário para governar suas decisões e sua vida, longe da pressa do mundo.",
+      title: "BÔNUS 3 — Clareza Interior",
+      desc: "Ferramentas para reduzir ansiedade e ruído mental.",
       oldPrice: "47,00"
     },
     {
       icon: <BookOpen className="w-16 h-16 text-slate-300 stroke-1" />,
       image: "https://private-purple-7jwtyjj1.edgeone.app/BONUS%204.jpeg",
-      title: "BÔNUS 4: Os Talentos Ocultos: A Matemática da Multiplicação",
-      desc: "Um raio-X prático inspirado na sabedoria da multiplicação, para extrair as habilidades que você enterrou por dúvida e transformá-las em sementes de uma nova colheita abundante.",
+      title: "BÔNUS 4 — Matemática da Multiplicação",
+      desc: "Como identificar e desenvolver habilidades esquecidas.",
       oldPrice: "67,00"
     }
   ];
 
   const stackItems = [
     { name: "Guia A Sabedoria da Abundância", price: "R$ 197,00" },
-    { name: "Bônus 1: A Aliança Inabalável", price: "R$ 97,00" },
-    { name: "Bônus 2: O Alvorecer dos Sábios", price: "R$ 67,00" },
-    { name: "Bônus 3: Frequência da Serenidade", price: "R$ 47,00" },
-    { name: "Bônus 4: Os Talentos Ocultos", price: "R$ 67,00" }
+    { name: "Bônus 1: Construção de Riqueza a Dois", price: "R$ 97,00" },
+    { name: "Bônus 2: Código da Primeira Hora", price: "R$ 67,00" },
+    { name: "Bônus 3: Clareza Interior", price: "R$ 47,00" },
+    { name: "Bônus 4: Matemática da Multiplicação", price: "R$ 67,00" }
   ];
 
   return (
@@ -57,11 +57,11 @@ export const Bonus = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight">
-            Você não estará <span className="text-brand-gold">desamparado</span>. <br className="hidden md:block" />
-            Os arquivos complementares da sabedoria.
+            Para garantir que você <span className="text-brand-gold">não desista</span>. <br className="hidden md:block" />
+            As ferramentas de apoio fundamentais.
           </h2>
           <p className="text-lg md:text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed">
-            Para garantir que a base do seu novo legado seja inabalável, a pesquisadora Helena Valença liberou <strong className="text-white">4 materiais de aprofundamento prático</strong> que, sozinhos, valem mais do que o triplo do investimento de hoje.
+            Construir prosperidade sozinho pode ser exaustivo. Por isso, juntei <strong className="text-white">4 materiais de aprofundamento prático</strong> ao Método Próspera. Eles não são simples bônus; são ferramentas essenciais para garantir que sua jornada de disciplina e abundância não pare na primeira dificuldade.
           </p>
         </motion.div>
 
@@ -161,7 +161,7 @@ export const Bonus = () => {
                   </div>
 
                   <CTAButton href="https://cupondesconto.com.br/d0ib" className="w-full text-sm md:text-lg animate-bounce">
-                    QUERO CONSTRUIR UM NOVO LEGADO AGORA
+                    QUERO ASSUMIR O COMANDO DO MEU FUTURO AGORA
                   </CTAButton>
                 </div>
               </div>

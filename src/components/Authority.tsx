@@ -21,7 +21,7 @@ export const Authority = () => {
               className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" 
             />
             {/* Subtle overlay for better text readability */}
-            <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/20 to-transparent pointer-events-none z-10Opacity-80"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/20 to-transparent pointer-events-none z-10 opacity-80"></div>
             {/* Elegant Name Tag overlay */}
             <div className="absolute bottom-6 left-6 right-6 bg-brand-dark/80 backdrop-blur-md p-4 rounded-xl border border-white/10 z-20">
               <h4 className="text-xl font-bold text-white uppercase">Helena Valença</h4>
@@ -34,25 +34,43 @@ export const Authority = () => {
         </motion.div>
 
         <motion.div 
-          className="w-full lg:w-7/12 flex flex-col items-center lg:items-start text-center lg:text-left"
+          className="w-full lg:w-7/12 flex flex-col items-start text-left"
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-8 leading-tight w-full">
-            "Eu não vim de uma linhagem de riqueza. Mas um legado de prosperidade <span className="text-brand-gold">começará por mim.</span>"
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-white mb-6 leading-tight w-full">
+            Pesquisadora de Comportamento Humano e Criadora do <span className="text-brand-gold">Método Próspera</span>
           </h2>
           
-          <div className="space-y-6 text-base md:text-lg text-slate-300 leading-relaxed mb-10 w-full">
-            <p>
-              Sou a pesquisadora Helena Valença. Durante anos estudei o comportamento humano, a psicologia do sucesso e os princípios atemporais que fundamentaram as maiores trajetórias de liderança e riqueza da história.
+          <div className="space-y-5 text-base md:text-lg text-slate-300 leading-relaxed mb-10 w-full">
+            <p className="pl-4 border-l-2 border-brand-gold italic mb-6">
+              "Passei anos tentando entender por que algumas pessoas conseguem construir uma vida de crescimento, estabilidade e realização, enquanto outras permanecem presas aos mesmos ciclos de escassez, autossabotagem e frustração."
             </p>
             <p>
-              Pessoas que crescem na falta desenvolvem, muitas vezes, uma <strong className="text-white">repulsa silenciosa pela abundância</strong>. Sem restaurar os alicerces da sua mentalidade, você continuará dissipando os recursos que passarem por suas mãos para anestesiar dores do passado.
+              Sou Helena Valença, pesquisadora dedicada ao estudo do comportamento humano, da tomada de decisões e dos princípios que influenciam a prosperidade ao longo da vida.
             </p>
-            <p className="pl-4 border-l-2 border-brand-gold italic text-left">
-              "Você precisa mais do que dicas financeiras. Você precisa resgatar os princípios que regem a mente próspera. É para essa jornada que desenhei este manual."
+            <p>
+              Sou também a criadora do <strong className="text-white">Método Próspera</strong>, um sistema estruturado que organiza os princípios essenciais que moldam decisões, hábitos e resultados ao longo do tempo.
+            </p>
+            <p>
+              Durante minha trajetória, percebi algo que mudou completamente minha visão: a maioria das pessoas acredita que seus resultados são determinados apenas pelo esforço, quando na verdade eles são profundamente influenciados pelos padrões mentais, hábitos e crenças que carregam desde cedo.
+            </p>
+            <p>
+              Ao analisar estudos sobre comportamento, desenvolvimento pessoal e os princípios observados em grandes líderes e construtores de legado ao longo da história, identifiquei padrões que se repetem geração após geração.
+            </p>
+            <p>
+              Foi dessa investigação que nasceu o Método Próspera.
+            </p>
+            <p>
+              Um sistema criado para ajudar pessoas comuns a desenvolver clareza, disciplina, responsabilidade e uma mentalidade capaz de sustentar crescimento duradouro, sem depender de motivação passageira ou promessas irreais.
+            </p>
+            <p>
+              Acredito que prosperidade não começa no dinheiro. Ela começa nas decisões. E decisões melhores são construídas sobre princípios sólidos.
+            </p>
+            <p>
+              Foi para compartilhar esses princípios de forma prática e acessível que desenvolvi o Guia <strong className="text-brand-gold">A Sabedoria da Abundância</strong>.
             </p>
           </div>
 
@@ -62,7 +80,7 @@ export const Authority = () => {
               { icon: <Award className="w-6 h-6 text-brand-gold" />, text: "Princípios Validados" },
               { icon: <LineChart className="w-6 h-6 text-brand-gold" />, text: "+10.000 Vidas Transformadas" },
             ].map((item, i) => (
-              <div key={i} className="flex flex-col items-center sm:items-start text-center sm:text-left gap-3">
+              <div key={i} className="flex flex-col items-start text-left gap-3">
                 <div className="p-3 rounded-full bg-brand-dark-light border border-white/5 inline-block">
                   {item.icon}
                 </div>

@@ -16,17 +16,17 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <span className="inline-block py-1 px-3 rounded-full bg-white/5 border border-white/10 text-brand-gold font-semibold tracking-wider text-xs md:text-sm mb-6 uppercase">
-            O código esquecido da prosperidade que atravessou milênios.
+            SABEDORIA PARA HOJE. PRINCÍPIOS PARA TODA A VIDA.
           </span>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
-            O limite entre você e um grande legado não é o trabalho, é a sua <span className="text-brand-gold">mentalidade.</span>
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
+            Trabalhar mais não vai mudar sua vida. Aprender a <span className="text-brand-gold">decidir melhor, sim.</span>
           </h1>
-          <p className="text-lg md:text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
-            Você não precisa apenas de mais esforço. O segredo para a abundância verdadeira não é o suor, mas a <strong className="text-white">sabedoria atemporal</strong>. Descubra os princípios que governaram as maiores mentes e reis da antiguidade para reescrever as decisões da sua vida.
+          <p className="text-base md:text-xl text-slate-300 mb-8 max-w-2xl leading-relaxed">
+            Existe um momento em que a realidade bate à porta: de que adianta tanto esforço se você continua no mesmo lugar? O problema não é o seu suor. É a falta de um sistema claro para tomar decisões que realmente destravem o seu progresso.
           </p>
           <div className="flex flex-col items-center lg:items-start w-full gap-4">
-            <CTAButton href="#oferta" className="animate-pulse">
-              QUERO ACESSAR A SABEDORIA DA ABUNDÂNCIA AGORA (Por R$ 17,90)
+            <CTAButton href="#oferta">
+              QUERO ACESSAR O MÉTODO PRÓSPERA
             </CTAButton>
             <div className="flex items-center gap-4 text-sm text-slate-400 font-medium">
               <span className="flex items-center gap-1"><ShieldCheck className="w-4 h-4 text-brand-gold" /> Compra 100% Segura</span>
