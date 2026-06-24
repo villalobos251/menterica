@@ -1,27 +1,28 @@
 import { motion } from 'motion/react';
 import { AlertCircle, Brain, BatteryWarning, AlertTriangle, Users } from 'lucide-react';
+import { CTAButton } from './CTAButton';
 
 export const Identification = () => {
   const painPoints = [
     {
       icon: <BatteryWarning className="w-8 h-8 text-brand-gold" />,
-      title: "“Eu trabalho muito, mas não saio do lugar.”",
-      desc: 'O dinheiro entra e sai rápido. Parece que nunca sobra.'
+      title: "Ansiedade Constante com o Futuro",
+      desc: 'Você trabalha, recebe, paga as contas, e o dinheiro some. A sensação é de correr em uma esteira sem nunca sair do lugar.'
     },
     {
       icon: <Brain className="w-8 h-8 text-brand-gold" />,
-      title: "“Eu não sei exatamente o que estou fazendo com a minha vida.”",
-      desc: 'Tudo parece confuso, automático, sem direção.'
+      title: "O Peso da Falta de Educação Financeira",
+      desc: 'Ninguém nos ensinou a lidar com o dinheiro. Você tenta investir ou poupar, mas acaba cedendo a compras por impulso e sabotando seus próprios planos.'
     },
     {
       icon: <AlertTriangle className="w-8 h-8 text-brand-gold" />,
-      title: "“Eu começo, mas não termino.”",
-      desc: 'Projetos, promessas, mudanças… e tudo volta ao mesmo ponto.'
+      title: "Sensação de Estar Preso na Própria Vida",
+      desc: 'O tempo está passando. O pavor silencioso de envelhecer e não ter construído nada sólido para proteger você e sua família.'
     },
     {
       icon: <Users className="w-8 h-8 text-brand-gold" />,
-      title: "“Tenho medo de estar ficando para trás.”",
-      desc: 'E de um dia olhar para trás e perceber que poderia ter sido diferente.'
+      title: "A Frustração de Não Prover o Melhor",
+      desc: 'O desejo ardente de segurança e liberdade, e a dor de não conseguir dar a vida que a sua família realmente merece porque você continua errando nas mesmas coisas.'
     }
   ];
 
@@ -39,10 +40,10 @@ export const Identification = () => {
             <AlertCircle className="w-12 h-12 text-brand-gold" />
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white mb-6 uppercase tracking-tight">
-            QUANDO A VIDA <span className="text-brand-gold border-b-4 border-brand-gold">COMEÇA A PESAR</span>
+            VOCÊ ESTÁ PRESO EM UMA <span className="text-brand-gold border-b-4 border-brand-gold">PRISÃO INVISÍVEL?</span>
           </h2>
           <p className="text-base md:text-xl text-slate-300 max-w-3xl mx-auto">
-            Talvez você se reconheça em alguns pontos:
+            Vamos ser honestos por um momento. Se você olhar no fundo dos seus olhos no espelho hoje, você vai reconhecer a dor de viver com...
           </p>
         </motion.div>
 
@@ -71,12 +72,16 @@ export const Identification = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <div className="absolute top-0 right-0 w-32 h-32 bg-brand-gold/5 rounded-full blur-3xl"></div>
-          <p className="text-base md:text-xl text-slate-300 font-medium relative z-10 leading-relaxed text-left">
-            <strong className="text-white text-2xl uppercase mb-4 block">A Grande Armadilha</strong>
-            Esses ciclos repetitivos não são má sorte. Eles acontecem porque você está caindo sempre no mesmo erro central: tentar resolver a vida na intuição, deixando suas decisões serem guiadas por urgência, medo e antigos hábitos.
-            <br/><br/>
-            Você se esforça ao máximo, mas sem um norte. É como acelerar um carro na direção errada. Enquanto você não trocar a emoção do momento por princípios sólidos, continuará refazendo os mesmos caminhos, colhendo as mesmas frustrações.
+          <p className="text-base md:text-xl text-slate-300 font-medium relative z-10 leading-relaxed text-left mb-8">
+            <strong className="text-white text-2xl uppercase mb-4 block">A Verdade Que Ninguém Te Conta</strong>
+            A grande mídia e os gurus financeiros tentam te convencer de que você só precisa "cortar o cafezinho" ou investir em ações complexas. Isso é uma mentira.<br/><br/>
+            O verdadeiro problema não é a economia, e muitas vezes não é o quanto você ganha. O seu verdadeiro inimigo é o seu "termostato financeiro" interno — uma programação mental silenciosa que faz você se sabotar, gastar o que não tem e perder o rumo sempre que parece que as coisas vão dar certo.
           </p>
+          <div className="relative z-10">
+            <CTAButton href="#oferta" className="max-w-md w-full">
+              QUERO MUDAR MINHA PROGRAMAÇÃO MENTAL
+            </CTAButton>
+          </div>
         </motion.div>
       </div>
     </section>

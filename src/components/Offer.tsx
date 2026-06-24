@@ -49,8 +49,8 @@ export const Offer = () => {
               <div className="flex flex-col gap-6">
                 <div className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg border border-white/10 group">
                   <img 
-                    src="https://private-purple-7jwtyjj1.edgeone.app/fA%C3%87A_AGORA_NA_VERS%C3%83O_16.9_202606221649.jpeg" 
-                    alt="Guia A Sabedoria da Abundância" 
+                    src="https://rainy-azure-ws8zmftx.edgeone.app/C%C3%B3pia%20de%20baneer.png" 
+                    alt="Livro Mente Rica, Vida Rica" 
                     loading="lazy"
                     decoding="async"
                     className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
@@ -58,7 +58,7 @@ export const Offer = () => {
                   <div className="absolute inset-0 bg-brand-dark/20 group-hover:bg-transparent transition-colors duration-500 pointer-events-none"></div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2 mt-4">Guia <span className="text-brand-gold">A Sabedoria da Abundância</span></h3>
+                  <h3 className="text-2xl font-bold text-white mb-2 mt-4">Livro <span className="text-brand-gold">Mente Rica, Vida Rica</span></h3>
                   <p className="text-slate-400 mb-6 text-sm">Baseado no Método Próspera</p>
                   <ul className="space-y-4 mb-8">
                   {[

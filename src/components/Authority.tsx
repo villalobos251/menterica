@@ -70,7 +70,7 @@ export const Authority = () => {
               Acredito que prosperidade não começa no dinheiro. Ela começa nas decisões. E decisões melhores são construídas sobre princípios sólidos.
             </p>
             <p>
-              Foi para compartilhar esses princípios de forma prática e acessível que desenvolvi o Guia <strong className="text-brand-gold">A Sabedoria da Abundância</strong>.
+              Foi para compartilhar esses princípios de forma prática e acessível que desenvolvi o Livro <strong className="text-brand-gold">Mente Rica, Vida Rica</strong>.
             </p>
           </div>
 

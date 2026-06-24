@@ -6,28 +6,28 @@ export const Bonus = () => {
   const bonuses = [
     {
       icon: <Tablet className="w-16 h-16 text-slate-300 stroke-1" />,
-      image: "https://private-purple-7jwtyjj1.edgeone.app/BONUS%201.jpeg",
+      image: "https://zealous-emerald-nraw84qs.edgeone.app/BONUS%201.png",
       title: "BÔNUS 1 — Construção de Riqueza a Dois",
       desc: "Como o ambiente familiar influencia diretamente suas decisões e resultados.",
       oldPrice: "97,00"
     },
     {
       icon: <Smartphone className="w-16 h-16 text-slate-300 stroke-1" />,
-      image: "https://private-purple-7jwtyjj1.edgeone.app/BONUS%202.jpeg",
+      image: "https://zealous-emerald-nraw84qs.edgeone.app/BONUS%202.png",
       title: "BÔNUS 2 — Código da Primeira Hora",
       desc: "Como estruturar suas manhãs para aumentar clareza e disciplina.",
       oldPrice: "67,00"
     },
     {
       icon: <Headphones className="w-16 h-16 text-slate-300 stroke-1" />,
-      image: "https://private-purple-7jwtyjj1.edgeone.app/BONUS%203.jpeg",
+      image: "https://zealous-emerald-nraw84qs.edgeone.app/BONUS%203.png",
       title: "BÔNUS 3 — Clareza Interior",
       desc: "Ferramentas para reduzir ansiedade e ruído mental.",
       oldPrice: "47,00"
     },
     {
       icon: <BookOpen className="w-16 h-16 text-slate-300 stroke-1" />,
-      image: "https://private-purple-7jwtyjj1.edgeone.app/BONUS%204.jpeg",
+      image: "https://zealous-emerald-nraw84qs.edgeone.app/BONUS%204.png",
       title: "BÔNUS 4 — Matemática da Multiplicação",
       desc: "Como identificar e desenvolver habilidades esquecidas.",
       oldPrice: "67,00"
@@ -35,7 +35,7 @@ export const Bonus = () => {
   ];
 
   const stackItems = [
-    { name: "Guia A Sabedoria da Abundância", price: "R$ 197,00" },
+    { name: "Livro Mente Rica, Vida Rica", price: "R$ 197,00" },
     { name: "Bônus 1: Construção de Riqueza a Dois", price: "R$ 97,00" },
     { name: "Bônus 2: Código da Primeira Hora", price: "R$ 67,00" },
     { name: "Bônus 3: Clareza Interior", price: "R$ 47,00" },
@@ -92,11 +92,12 @@ export const Bonus = () => {
               <div className="flex flex-col h-full">
                 <h3 className="text-xl font-bold text-white mb-3 leading-tight tracking-wide">{bonus.title}</h3>
                 <p className="text-slate-400 mb-6 text-sm md:text-base leading-relaxed flex-grow">{bonus.desc}</p>
-                <div className="bg-black/40 rounded-lg p-4 border border-white/5 inline-block w-full sm:w-auto self-start mt-auto">
-                  <span className="text-slate-500 font-medium text-sm line-through block mb-1">
-                    Valor Real: R$ {bonus.oldPrice}
+                <div className="bg-black/40 rounded-lg py-3 px-4 border border-white/5 flex flex-wrap items-center gap-2 md:gap-3 w-full self-start mt-auto">
+                  <span className="text-slate-500 font-medium text-sm md:text-base line-through whitespace-nowrap">
+                    De: R$ {bonus.oldPrice}
                   </span>
-                  <span className="text-emerald-400 font-bold text-lg uppercase tracking-wider block">
+                  <span className="hidden sm:inline text-slate-600 font-light">|</span>
+                  <span className="text-emerald-400 font-bold text-sm md:text-base uppercase tracking-wider whitespace-nowrap">
                     HOJE: R$ 0,00
                   </span>
                 </div>
@@ -127,7 +128,7 @@ export const Bonus = () => {
               <div className="p-6 md:p-10 relative z-10">
                 <div className="mb-8 rounded-xl overflow-hidden shadow-2xl border border-white/10">
                   <img 
-                    src="https://private-purple-7jwtyjj1.edgeone.app/fA%C3%87A_AGORA_NA_VERS%C3%83O_16.9_202606221649.jpeg" 
+                    src="https://rainy-azure-ws8zmftx.edgeone.app/C%C3%B3pia%20de%20baneer.png" 
                     alt="Resumo do Arsenal" 
                     loading="lazy"
                     decoding="async"
@@ -140,9 +141,9 @@ export const Bonus = () => {
                      <li key={i} className="flex items-center justify-between gap-4">
                        <div className="flex items-center gap-3">
                          <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
-                         <span className="text-slate-200 font-medium text-sm md:text-base">{item.name}</span>
+                         <span className="text-slate-200 font-medium text-sm md:text-base leading-tight">{item.name}</span>
                        </div>
-                       <span className="text-slate-400 font-mono text-sm">{item.price}</span>
+                       <span className="text-slate-400 font-mono text-sm whitespace-nowrap shrink-0">{item.price}</span>
                      </li>
                   ))}
                 </ul>

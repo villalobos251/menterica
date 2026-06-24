@@ -41,15 +41,15 @@ export const Countdown = ({ initialMinutes = 15, className = "", isBanner = fals
 
   if (isBanner) {
     return (
-      <div className={`bg-brand-gold text-slate-900 py-2 sm:py-3 px-4 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 w-full z-50 text-sm sm:text-base font-bold ${className}`}>
-        <div className="flex items-center gap-2">
-          <Clock className="w-5 h-5 animate-pulse" />
-          <span className="uppercase tracking-wider text-center">Atenção: A condição especial se encerra em:</span>
+      <div className={`bg-brand-gold text-slate-900 py-1.5 px-3 md:px-4 flex items-center justify-center gap-2 md:gap-4 w-full z-50 text-xs sm:text-sm font-bold ${className}`}>
+        <div className="flex items-center gap-1.5 md:gap-2">
+          <Clock className="w-4 h-4 animate-pulse shrink-0" />
+          <span className="uppercase tracking-wider text-center line-clamp-1">Condição especial encerra em:</span>
         </div>
-        <div className="flex items-center gap-1 bg-slate-900 text-brand-gold px-3 py-1 rounded-md shadow-inner">
-          <span className="font-mono text-lg">{minutes}</span>
-          <span className="animate-pulse">:</span>
-          <span className="font-mono text-lg">{seconds}</span>
+        <div className="flex items-center gap-1 bg-slate-900 text-brand-gold px-2 py-0.5 rounded shadow-inner shrink-0">
+          <span className="font-mono text-sm md:text-base leading-none">{minutes}</span>
+          <span className="animate-pulse text-sm md:text-base leading-none mb-[2px]">:</span>
+          <span className="font-mono text-sm md:text-base leading-none">{seconds}</span>
         </div>
       </div>
     );
